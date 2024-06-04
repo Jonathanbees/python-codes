@@ -4,9 +4,9 @@ def draw_pyramid(n):
     print(width)
     for i in range(height, 0, -1):
         if i == height-1:
-            print('\\' + "/" + "__")
+            print('\\' + "/" + "__" + "\\")
         else:
-            print("*"*width)
+            print("./\\"*width)
 
     #Nota reconocimiento patrón 2: (tener en cuenta que estoy contando de abajo para arriba la altura) 
     #imprimir _, esta se imprime a partir de la línea h hasta h=2
